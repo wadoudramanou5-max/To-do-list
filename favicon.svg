@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Fond bleu arrondi -->
+  <rect width="32" height="32" rx="8" fill="#2563EB"/>
+  
+  <!-- Légère brillance en haut -->
+  <rect width="32" height="16" rx="8" fill="white" opacity="0.08"/>
+  
+  <!-- Lettre T -->
+  <text x="4" y="23" font-family="Georgia, serif" font-size="18" font-weight="700" fill="white" letter-spacing="-1">T</text>
+  
+  <!-- Lettre D en bleu clair -->
+  <text x="15" y="23" font-family="Georgia, serif" font-size="18" font-weight="700" fill="#93C5FD" letter-spacing="-1">D</text>
+</svg>
