@@ -3,7 +3,7 @@ let addbtn=document.getElementById("addtask")
 let suppbtn = document.getElementById("clear")
 let savebtn= document.getElementById("save")
 let loadbtn = document.getElementById("load")
-let startbtn = documenyt.getElementById("start")
+let startbtn = document.getElementById("start")
 
 
 
