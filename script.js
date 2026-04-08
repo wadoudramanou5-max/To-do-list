@@ -2,7 +2,7 @@
 let addbtn=document.getElementById("addtask")
 let suppbtn = document.getElementById("clear")
 let savebtn= document.getElementById("save")
-let loadbtn = documet.getElementById("load")
+let loadbtn = document.getElementById("load")
 
 
 
