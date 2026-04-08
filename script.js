@@ -3,15 +3,21 @@ let addbtn=document.getElementById("addtask")
 let suppbtn = document.getElementById("clear")
 let savebtn= document.getElementById("save")
 let loadbtn = document.getElementById("load")
+let startbtn = documenyt.getElementById("start")
 
 
 
-
-
+startbtn.addEventListener("click" , startAll)
 addbtn.addEventListener("click" , addTask)
 suppbtn.addEventListener("click" , clearAll)
 savebtn.addEventListener("click" , saveAll)
 loadbtn.addEventListener("click" , loadAll)
+
+function startAll(){
+    window.location.href="index.html"
+}
+
+
 
 let task=[]
 
