@@ -1,7 +1,6 @@
 
 let addbtn=document.getElementById("addtask")
 let suppbtn = document.getElementById("clear")
-let loadbtn = document.getElementById("load")
 
 
 
