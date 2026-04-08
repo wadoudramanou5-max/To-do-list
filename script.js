@@ -18,6 +18,7 @@ function displaytasks(){
     for(let i=0 ; i<task.length ; i++){
      html+="<li>"+task[i] + "<button onclick='removetask("+ i +")'>x</button></li>";
      
+     
        
     }
     document.getElementById("list").innerHTML=html;
