@@ -66,7 +66,7 @@ function loadAll(){
          displaytasks();
         alert("liste chargé avec succès ")
     }else{
-        alert("Aucune sauvegarde trouvée )
+        alert("Aucune sauvegarde trouvée" )
     }
 }
 
