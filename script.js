@@ -1,7 +1,8 @@
 
 let addbtn=document.getElementById("addtask")
 let suppbtn = document.getElementById("clear")
-
+let savebtn= document.getElementById("save")
+let loadbtn = documet.getElementById("load")
 
 
 
@@ -9,6 +10,8 @@ let suppbtn = document.getElementById("clear")
 
 addbtn.addEventListener("click" , addTask)
 suppbtn.addEventListener("click" , clearAll)
+savebtn.addEventListener("click" , saveAll)
+loadbtn.addEventListener("click" , loadAll)
 
 let task=[]
 
@@ -47,6 +50,24 @@ function clearAll(){
 function removetask(i) {
     task.splice(i, 1);      
     displaytasks();
+}
+
+function saveAll(){
+    const tasks=JSON.stringify(task);
+    localStorage.setItem("sauvegarde_todo" , tasks);
+    alert("liste de tâche sauvegardé avec succès ")
+    
+}
+
+function loadAll(){
+    const taskRecu=localStorage.getItem("sauvegarde_todo");
+    if(taskRecu){
+        task=JSON.parse(taskRecu);
+         displaytasks();
+        alert("liste chargé avec succès ")
+    }else{
+        alert("Aucune sauvegarde trouvée )
+    }
 }
 
 
