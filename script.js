@@ -14,7 +14,7 @@ savebtn.addEventListener("click" , saveAll)
 loadbtn.addEventListener("click" , loadAll)
 
 function startAll(){
-    window.location.href="index.html"
+    window.location.href="dashboardl.html"
 }
 
 
