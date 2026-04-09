@@ -21,7 +21,7 @@ let task=[]
 function displaytasks(){
     let html="";
     for(let i=0 ; i<task.length ; i++){
-     html+="<li>"+task[i] + "<button onclick='removetask("+ i +")'>x</button></li>";
+     html+="<li>"+task[i] + "<p></p>"<button onclick='removetask("+ i +")'>x</button></li>";
       
     }
     
